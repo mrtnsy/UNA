@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('fundofoda.jpg')no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to left, orange, rgb(146, 35, 35)); */
+
+}
+
+h1{
+    color: rgb(248, 112, 21);
+    font-weight: bolder;
+    
+}
+
+.cabeca{
+    padding-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav a{
+    text-decoration: none;
+    margin: 25px;
+    color: rgb(233, 229, 236);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover{
+    color: grey;
+}
+
+.home{
+    background: url('/viking.png') no-repeat;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    
+}
+
+.home-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    max-width: 500px;
+
+}
+
+.home-esquerda h1{
+    font-size: 80px;
+    
+}
+.home-esquerda p{
+    margin-top: 40px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Skranji', cursive;
+    
+}
+
+.home-direita{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+
+}
+
+form{
+    width: 350px;
+    height: 550px;
+    margin-right: 50%;
+    /* background: transparent; */
+    background: rgb(240,248,255,0.95);
+    border: 1px solid rgb(255, 123, 0);
+    /* backdrop-filter: blur(10px); */
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    margin: 40px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    /* background: rgb(255, 102, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+ }
+
+.box h1{
+
+    color: rgb(255, 94, 0);
+    font-family: 'Skranji', cursive;
+}
+
+.box img{
+    margin-top: 30px;
+    max-width: 50px;
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    width: 70%;
+    height: 8%;
+    border-radius: 5px;
+    border-width: 0px;
+    border: 2px solid rgb(0,0,0,0.5);
+    backdrop-filter: blur(20px);
+    background: transparent;
+}
+
+.enviar{
+    margin-top: 40px;
+    background: rgb(255, 72, 0);
+}
+
+.enviar:hover{
+    background: rgb(221, 63, 0);
